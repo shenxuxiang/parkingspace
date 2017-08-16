@@ -1,0 +1,67 @@
+.maplist-component {
+    width: 100%;
+    height: 5rem;
+    padding: .2667rem;
+    background: #fff;
+    border-radius: 6px;
+    margin-top: .2667rem;
+    box-sizing: border-box;
+}
+.maplist-component-head {
+    width: 100%;
+    height: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.maplist-component-head-expected {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #999;
+    font-size: .32rem;
+}
+.maplist-component-head-name {
+    flex: 1;
+    height: 100%;
+    color: #333;
+    font-size: .48rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.maplist-component-head-parkingspace {
+    width: 2rem;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.maplist-component-head-parkingspace-title {
+    width: 100%;
+    color: #999;
+    font-size: .32rem;
+    text-align: center;
+}
+.maplist-component-head-parkingspace-num {
+    font-size: .6rem;
+    text-align: center;
+}
+.maplist-component-map {
+    width: 100%;
+    height: 3.2667rem;
+    background: #fff;
+    position: relative;
+}
+.maplist-component-map:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0);
+}

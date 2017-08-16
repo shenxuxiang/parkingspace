@@ -1,0 +1,55 @@
+.pay-page {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 100;
+    display: flex;
+}
+.pay-page-container {
+    width: 8rem;
+    height: 6rem;
+    margin: auto;
+    background: #fff;
+    border: 1px solid #26a2ff;
+    border-radius: 6px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-around;
+    justify-content: center;
+}
+.pay-page-container-title {
+    width: 100%;
+    text-align: center;
+    line-height: 1rem;
+    color: #666;
+    font-size: .48rem
+}
+.pay-page-container-pay {
+    width: 100%;
+    line-height: 1rem;
+    text-align: center;
+    color: #333;
+    font-size: .6rem;
+}
+.pay-page-container-pay > span {
+    color: #f00;
+}
+.pay-page-container-btn {
+    width: 60%;
+    height: 1.0667rem;
+    border: 1px solid #26a2ff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #26a2ff;
+    font-size: .4267rem;
+}
+.pay-page-container-btn:hover {
+    background: #26a2ff;
+    color: #fff;
+}

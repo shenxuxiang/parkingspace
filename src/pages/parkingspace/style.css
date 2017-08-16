@@ -1,0 +1,20 @@
+.parkingspace {
+    width: 100%;
+    height: auto;
+}
+.parkingspace-head {
+    width: 100%;
+    heiht: 1.2rem;
+    background: #fff;
+    line-height: 1.2rem;
+    font-size: .48rem;
+    color: #666;
+    text-align: center;
+    box-shadow: 0 2px 3px rgba(0,0,0,.2);
+}
+.parkingspace-content {
+    width: 100%;
+    height: auto;
+    padding: 0 .2667rem;
+    box-sizing: border-box;
+}

@@ -1,0 +1,85 @@
+.home-page {
+    width: 100%;
+    padding: 1rem 10px 0;
+    box-sizing: border-box;
+}
+.submit-btn {
+    width: 100%;
+    height: 1.12rem;
+    margin-top: .8rem;
+    margin-bottom: .8rem;
+    border-radius: 6px;
+    color: #26a2ff;
+    font-size: .48rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #26a2ff;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.submit-btn:hover {
+    color: #fff;
+    background: #26a2ff;
+}
+
+.home-page-showlist {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+}
+.home-page-showlist-item {
+    width: 100%;
+    height: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    color: #999;
+    font-size: .3733rem;
+    display:-webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-pack: start;
+    -webkit-box-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.home-page-showlist-item.active {
+    background: #26a2ff;
+    border: none;
+    color: #fff;
+}
+.home-page-showlist-item.active > .home-page-showlist-item-ico {
+    width: 18px;
+    height: 14px;
+    background: url('../../static/images/selected.png');
+    background-size: cover;
+}
+
+.fade-enter {
+    opacity: 0;
+}
+.fade-enter-active {
+    opacity: 1;
+    transition: all .3s;
+}
+.fade-leave {
+    opacity: 1;
+}
+.fade-leave-active {
+    opacity: 0;
+    transition: all .3s;
+}
+
+.slide-enter {
+    opacity: 0;
+    transform: transLateY(100%);
+}
+.slide-enter-active {
+    opacity: 1;
+    transform: transLateY(0);
+    transition: all .3s;
+}
